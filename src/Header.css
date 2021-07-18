@@ -1,0 +1,24 @@
+.main-header {
+  background: black;
+  position: fixed;
+  height: 4rem;
+  width: 2000px;
+}
+
+.nav-logo {
+  /* transform: scale(0.1); */
+  padding-top: 10px;
+  height: 3rem;
+  width: 10rem;
+  padding-left: 2rem;
+}
+
+.nav-profile {
+  position: fixed;
+  height: 8rem;
+  width: 10rem;
+  margin-left: 60rem;
+  padding-right: 2rem;
+  margin-top: -1.7rem;
+  transform: scale(0.35);
+}

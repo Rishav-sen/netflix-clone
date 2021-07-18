@@ -1,0 +1,46 @@
+.row {
+  margin-left: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  font-size: smaller;
+  padding-left: 1rem;
+}
+
+.row_title {
+  padding-left: 1.5rem;
+  font-size: 1.3rem;
+  padding-top: 10px;
+}
+
+.row_posters {
+  display: flex;
+  overflow-x: scrolls;
+  overflow-y: hidden;
+  padding-left: 10px;
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row_poster {
+  object-fit: contain;
+  width: 120%;
+  max-height: 125px;
+  transition: transform 450ms;
+  margin-right: 10px;
+}
+
+.row_poster:hover {
+  transform: scale(1.2);
+}
+
+.row_posterLarge {
+  max-height: 190px;
+}
+
+@media (max-width: 100px) {
+  .row_poster {
+    transition: scale(0.5);
+  }
+}

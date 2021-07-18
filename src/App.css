@@ -1,0 +1,13 @@
+.App {
+  background-color: black;
+}
+
+.website_header {
+  color: white;
+
+  background-color: black;
+}
+.row-fade {
+  max-height: 7rem;
+  background: linear-gradient(trasparent, blue);
+}
