@@ -1,3 +1,6 @@
+This project is up and running at https://netflix-clone-rsg.web.app/(Hosted by firebase)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
